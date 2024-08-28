@@ -1,0 +1,148 @@
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #ffffff;
+    color: #434455;
+}
+
+.container {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* ================== HEADER =============== */
+
+.header-page{
+    border-bottom: 1px solid #e7e9fc;
+    margin-bottom: 40px;
+}
+
+.header-page-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.logo{
+    margin-right: 200px;
+    display: block;
+        font-weight: 600;
+        font-size: 22px;
+        letter-spacing: -0.02em;
+        color: #000;
+        text-transform: uppercase;
+        margin-left: 16px;
+}
+
+.nav-page{
+    display: flex;
+}
+
+.menu-list{
+    display: flex;
+    gap: 40px;
+}
+
+.menu-link{
+    display: block;
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        color: #000;
+}
+
+.address-list{
+    display: flex;
+    gap: 24px;
+    margin-right: 16px;
+}
+
+/* ========== HERO =========== */
+
+.hero-container {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-color: rgb(251, 240, 226);
+    border-radius: 30px;
+}
+
+.hero-title{
+    text-transform: uppercase;
+    font-weight: 800;
+        font-size: 20px;
+        letter-spacing: -0.02em;
+        color: #000;
+        margin-bottom: 12px;
+}
+
+.hero-img{
+    margin-top: 40px;
+    margin-right: 64px;
+    margin-left: 40px;
+    display: block;
+}
+
+.txt-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 550px;
+}
+
+.hero-text{
+    margin-bottom: 16px;
+}
+
+.benefits-item{
+    margin-top: 12px;
+}
+
+.under{
+    font-weight: 200;
+        font-size: 14px;
+        letter-spacing: -0.02em;
+        color: #000;
+}
